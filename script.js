@@ -1,10 +1,11 @@
-// const name = document.getElementById("input");
+const name = document.getElementById("input");
 
-// change = () => {
-//     document.getElementById("myP").innerHTML = "hello, " + name.value
-// };
+change = () => {
+    document.getElementById("myP").innerHTML = "hello, " + name.value
+};
 
 var nums = [1, 3, 6, 4, 2, 7];
+
 //var sorted = [];
 //sorted = nums.sort(function(a, b) { return a - b });
 //console.log("sorted is " + sorted);
@@ -26,20 +27,7 @@ function miss_num(nums) {
 // };
 // sorted = sort_nums(nums);
 
-// function sort_nums(nums) {
-//     nums.sort(function(a, b) { return a - b });
-
-// }
-
-//sorted = (nums) => nums.sort(function(a, b) { return a - b });
-
-
-//console.log("sorted is " + sorted);
-
 class Animal {
-    // let name;
-    // let height;
-    // let weight;
 
     constructor(name, height, weight) {
         console.log("new animal", name)
